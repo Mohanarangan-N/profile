@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Why Choose Us | Mora Digital Automations – Puducherry India</title>
+<meta name="description" content="Why choose Mora Digital Automations? Client-first, affordable, fast, transparent, and AI-powered digital services by Mohanarangan N — Puducherry, India.">
+<meta name="keywords" content="why Mora Digital Automations, best web development company Puducherry, Mohanarangan N trusted developer, affordable web development India">
+<meta name="author" content="Mohanarangan N">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://morafinds.site/why-us.html">
+<meta property="og:title" content="Why Choose Us | Mora Digital Automations">
+<meta property="og:description" content="Why Mora Digital Automations — affordable, fast, transparent, AI-powered digital services. Puducherry, India.">
+<meta property="og:url" content="https://morafinds.site/why-us.html">
+<meta property="og:image" content="https://morafinds.site/mora-logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" sizes="32x32" href="mora-favicon-32.png">
+<style>
+:root{--ink:#0a0a0f;--ink2:#1e1e2e;--surface:#f5f4f0;--white:#fff;--gold:#c8a84b;--gold-light:#e8c97a;--muted:#6b6b80;--border:rgba(10,10,15,.1);--radius:16px;}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:"DM Sans",sans-serif;background:var(--surface);color:var(--ink);overflow-x:hidden;}
+#cursor-glow{width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(200,168,75,.07) 0%,transparent 70%);position:fixed;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:1.1rem 5vw;background:rgba(245,244,240,.87);backdrop-filter:blur(18px);border-bottom:1px solid var(--border);transition:.3s;}
+nav.scrolled{box-shadow:0 2px 32px rgba(0,0,0,.07);background:rgba(245,244,240,.98);}
+.nav-logo{font-family:"Syne",sans-serif;font-weight:800;font-size:1.35rem;color:var(--ink);letter-spacing:-.03em;text-decoration:none;}
+.nav-logo span{color:var(--gold);}
+.nav-links{display:flex;gap:2rem;list-style:none;}
+.nav-links a{font-size:.9rem;font-weight:500;color:var(--ink);text-decoration:none;position:relative;transition:color .2s;}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:-3px;width:0;height:1.5px;background:var(--gold);transition:width .3s;}
+.nav-links a:hover,.nav-links a.active{color:var(--gold);}
+.nav-links a:hover::after,.nav-links a.active::after{width:100%;}
+.nav-cta{background:var(--ink);color:var(--gold);font-family:"Syne",sans-serif;font-weight:700;font-size:.85rem;padding:.6rem 1.4rem;border-radius:50px;text-decoration:none;border:1.5px solid var(--ink);transition:.25s;}
+.nav-cta:hover{background:var(--gold);color:var(--ink);}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;}
+.hamburger span{width:24px;height:2px;background:var(--ink);border-radius:2px;}
+/* HERO */
+.page-hero{min-height:54vh;display:flex;flex-direction:column;justify-content:flex-end;padding:9rem 5vw 4.5rem;position:relative;overflow:hidden;background:var(--ink);}
+.ph-bg{position:absolute;inset:0;background:radial-gradient(ellipse 60% 70% at 80% 50%,rgba(200,168,75,.09) 0%,transparent 70%);}
+.ph-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 90% 80% at 50% 50%,black 30%,transparent 100%);}
+.ph-orb1{position:absolute;width:380px;height:380px;right:5%;top:5%;border-radius:50%;background:radial-gradient(circle,rgba(200,168,75,.1) 0%,transparent 70%);animation:float 7s ease-in-out infinite;}
+.ph-orb2{position:absolute;width:180px;height:180px;right:28%;bottom:10%;border-radius:50%;background:radial-gradient(circle,rgba(26,58,92,.2) 0%,transparent 70%);animation:float 9s ease-in-out infinite;animation-delay:-3s;}
+.page-eyebrow{display:inline-flex;align-items:center;gap:.5rem;font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;opacity:0;animation:fadeUp .6s .15s forwards;}
+.page-eyebrow::before{content:"";width:22px;height:1.5px;background:var(--gold);}
+.page-title{font-family:"Syne",sans-serif;font-size:clamp(2.8rem,6vw,5.5rem);font-weight:800;line-height:1;letter-spacing:-.04em;color:#fff;opacity:0;animation:fadeUp .7s .3s forwards;}
+.page-title em{font-style:normal;color:var(--gold);}
+.page-sub{max-width:560px;margin-top:1.2rem;font-size:1.05rem;color:rgba(255,255,255,.5);line-height:1.7;opacity:0;animation:fadeUp .7s .45s forwards;}
+section{padding:6rem 5vw;}
+.section-label{display:inline-flex;align-items:center;gap:.5rem;font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem;}
+.section-label::before{content:"";width:22px;height:1.5px;background:var(--gold);}
+h2{font-family:"Syne",sans-serif;font-size:clamp(1.9rem,3.5vw,3rem);font-weight:800;line-height:1.1;letter-spacing:-.03em;color:var(--ink);}
+h2 em{font-style:normal;color:var(--gold);}
+
+/* BIG REASONS GRID */
+#reasons{background:var(--white);}
+.reasons-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:var(--border);border:1.5px solid var(--border);border-radius:var(--radius);overflow:hidden;margin-top:3rem;}
+.reason-card{background:var(--white);padding:2.5rem 2rem;position:relative;overflow:hidden;transition:background .3s;}
+.reason-card::after{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .4s cubic-bezier(.4,0,.2,1);}
+.reason-card:hover{background:var(--surface);}
+.reason-card:hover::after{transform:scaleX(1);}
+.reason-card:hover .r-icon{transform:scale(1.12) rotate(-6deg);}
+.r-num{font-family:"Syne",sans-serif;font-size:4.5rem;font-weight:800;color:rgba(200,168,75,.08);position:absolute;right:1.2rem;top:.5rem;line-height:1;}
+.r-icon{font-size:2rem;margin-bottom:1.2rem;display:block;transition:transform .3s cubic-bezier(.34,1.56,.64,1);}
+.r-title{font-family:"Syne",sans-serif;font-weight:800;font-size:1.1rem;margin-bottom:.7rem;color:var(--ink);}
+.r-desc{font-size:.9rem;color:var(--muted);line-height:1.75;}
+
+/* VS COMPARISON */
+#comparison{background:var(--surface);}
+.comp-table{margin-top:3rem;border:1.5px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+.comp-header{display:grid;grid-template-columns:2fr 1fr 1fr;background:var(--ink);}
+.comp-header div{padding:1rem 1.5rem;font-family:"Syne",sans-serif;font-weight:700;font-size:.85rem;letter-spacing:.06em;text-transform:uppercase;}
+.comp-header div:first-child{color:rgba(255,255,255,.5);}
+.comp-header div:nth-child(2){color:rgba(255,255,255,.4);text-align:center;}
+.comp-header div:nth-child(3){color:var(--gold);text-align:center;}
+.comp-row{display:grid;grid-template-columns:2fr 1fr 1fr;border-top:1px solid var(--border);}
+.comp-row:nth-child(even){background:var(--white);}
+.comp-row:nth-child(odd){background:var(--surface);}
+.comp-row div{padding:.9rem 1.5rem;font-size:.88rem;display:flex;align-items:center;}
+.comp-row div:nth-child(2){justify-content:center;color:var(--muted);}
+.comp-row div:nth-child(3){justify-content:center;font-weight:600;color:var(--gold);}
+.comp-label{font-weight:500;color:var(--ink);}
+.tick{font-size:1.1rem;}
+.cross{font-size:1rem;color:var(--muted);}
+
+/* STATS BAND */
+#stats-band{background:var(--ink);}
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid rgba(255,255,255,.07);border-radius:var(--radius);overflow:hidden;margin-top:3rem;}
+.stat-box{padding:2.5rem 2rem;text-align:center;border-right:1px solid rgba(255,255,255,.07);transition:.3s;position:relative;overflow:hidden;}
+.stat-box:last-child{border-right:none;}
+.stat-box::before{content:"";position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--gold);transform:scaleX(0);transition:transform .4s;}
+.stat-box:hover::before{transform:scaleX(1);}
+.stat-big{font-family:"Syne",sans-serif;font-size:3.2rem;font-weight:800;color:var(--gold);line-height:1;}
+.stat-suf{color:rgba(255,255,255,.5);}
+.stat-lbl{font-size:.8rem;color:rgba(255,255,255,.45);margin-top:.5rem;text-transform:uppercase;letter-spacing:.08em;}
+.stat-sub{font-size:.75rem;color:rgba(255,255,255,.25);margin-top:.3rem;}
+
+/* TESTIMONIALS */
+#testimonials-why{background:var(--white);}
+.test-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;margin-top:3rem;}
+.test-card{background:var(--surface);border-radius:var(--radius);padding:2rem;border:1.5px solid var(--border);transition:.35s;position:relative;}
+.test-card::before{content:"\201C";font-size:5rem;font-family:Georgia,serif;color:rgba(200,168,75,.15);position:absolute;top:.5rem;left:1.5rem;line-height:1;}
+.test-card:hover{border-color:rgba(200,168,75,.35);transform:translateY(-4px);box-shadow:0 20px 40px rgba(0,0,0,.06);}
+.test-stars{color:var(--gold);font-size:.95rem;margin-bottom:.8rem;}
+.test-text{font-size:.92rem;color:var(--muted);line-height:1.78;margin-bottom:1.3rem;position:relative;z-index:1;}
+.test-author{font-family:"Syne",sans-serif;font-weight:700;font-size:.9rem;color:var(--ink);}
+.test-role{font-size:.8rem;color:var(--muted);margin-top:.15rem;}
+
+/* GUARANTEE */
+#guarantee{background:linear-gradient(135deg,var(--ink),var(--ink2));}
+.guarantee-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;margin-top:3rem;}
+.g-card{background:rgba(255,255,255,.04);border:1px solid rgba(200,168,75,.15);border-radius:var(--radius);padding:2rem;text-align:center;transition:.3s;}
+.g-card:hover{background:rgba(200,168,75,.07);border-color:rgba(200,168,75,.35);transform:translateY(-3px);}
+.g-icon{font-size:2rem;margin-bottom:.8rem;}
+.g-title{font-family:"Syne",sans-serif;font-weight:700;font-size:.95rem;color:#fff;margin-bottom:.5rem;}
+.g-desc{font-size:.82rem;color:rgba(255,255,255,.45);line-height:1.65;}
+
+/* CTA */
+.cta-band{background:var(--gold);padding:5rem 5vw;text-align:center;}
+.cta-band h2{color:var(--ink);margin-bottom:1rem;}
+.cta-band p{color:rgba(10,10,15,.6);font-size:1rem;max-width:460px;margin:0 auto 2rem;line-height:1.7;}
+.btn-dark{background:var(--ink);color:var(--gold);font-family:"Syne",sans-serif;font-weight:700;font-size:.95rem;padding:.9rem 2.2rem;border-radius:50px;border:none;cursor:pointer;transition:.25s;display:inline-block;text-decoration:none;}
+.btn-dark:hover{background:#1e1e2e;}
+.btn-light{background:rgba(10,10,15,.1);color:var(--ink);font-family:"Syne",sans-serif;font-weight:600;font-size:.95rem;padding:.9rem 2rem;border-radius:50px;text-decoration:none;border:1.5px solid rgba(10,10,15,.2);transition:.25s;display:inline-block;}
+.btn-light:hover{background:rgba(10,10,15,.15);}
+/* FOOTER */
+footer{background:var(--ink2);color:rgba(255,255,255,.45);padding:4rem 5vw 2rem;}
+.footer-inner{display:grid;grid-template-columns:1.4fr 2fr;gap:4rem;margin-bottom:3rem;}
+.footer-logo{font-family:"Syne",sans-serif;font-weight:800;font-size:1.2rem;color:#fff;text-decoration:none;display:block;margin-bottom:.8rem;}
+.footer-logo span{color:var(--gold);}
+.footer-brand p{font-size:.87rem;color:rgba(255,255,255,.4);line-height:1.7;max-width:260px;margin-bottom:1.2rem;}
+.footer-socials{display:flex;gap:.6rem;}
+.footer-socials a{width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:.72rem;font-weight:700;color:rgba(255,255,255,.5);text-decoration:none;transition:.2s;font-family:"Syne",sans-serif;}
+.footer-socials a:hover{border-color:var(--gold);color:var(--gold);}
+.footer-links{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;}
+.fl-col{display:flex;flex-direction:column;gap:.7rem;}
+.fl-col strong{font-family:"Syne",sans-serif;font-weight:700;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.7);margin-bottom:.3rem;}
+.fl-col a{font-size:.87rem;color:rgba(255,255,255,.4);text-decoration:none;transition:color .2s;}
+.fl-col a:hover{color:var(--gold);}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;font-size:.8rem;}
+.footer-bottom a{color:rgba(255,255,255,.4);text-decoration:none;}
+.footer-bottom a:hover{color:var(--gold);}
+.wa-btn{position:fixed;bottom:2rem;right:2rem;z-index:200;width:56px;height:56px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:1.6rem;box-shadow:0 4px 20px rgba(37,211,102,.4);transition:transform .3s;animation:pulseBadge 2.5s ease-in-out infinite;}
+.wa-btn:hover{transform:scale(1.12);}
+@keyframes fadeUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+@keyframes pulseBadge{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,.4)}50%{box-shadow:0 4px 36px rgba(37,211,102,.7)}}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s;}
+.reveal-left{opacity:0;transform:translateX(-28px);transition:opacity .7s,transform .7s;}
+.reveal-right{opacity:0;transform:translateX(28px);transition:opacity .7s,transform .7s;}
+.reveal.visible,.reveal-left.visible,.reveal-right.visible{opacity:1;transform:none;}
+.rd1{transition-delay:.1s}.rd2{transition-delay:.2s}.rd3{transition-delay:.3s}
+@media(max-width:900px){.reasons-grid{grid-template-columns:1fr 1fr}.stats-row{grid-template-columns:1fr 1fr}.guarantee-grid{grid-template-columns:1fr 1fr}.test-grid{grid-template-columns:1fr}}
+@media(max-width:768px){.nav-links,.nav-cta{display:none}.hamburger{display:flex}.reasons-grid{grid-template-columns:1fr}.stats-row{grid-template-columns:1fr 1fr}.comp-header,.comp-row{grid-template-columns:1.5fr 1fr 1fr}.footer-inner{grid-template-columns:1fr}.footer-links{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div id="cursor-glow"></div>
+<a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="wa-btn">💬</a>
+
+<nav id="navbar">
+  <a href="index.html" class="nav-logo">Mora<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="process.html">Process</a></li>
+    <li><a href="tech.html">Tech Stack</a></li>
+    <li><a href="why-us.html" class="active">Why Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="quote.html" class="nav-cta">Get a Quote</a>
+  <div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- HERO -->
+<div class="page-hero">
+  <div class="ph-bg"></div><div class="ph-grid"></div>
+  <div class="ph-orb1"></div><div class="ph-orb2"></div>
+  <div class="page-eyebrow">Why Mora Digital</div>
+  <h1 class="page-title">Why Clients Choose <em>Us</em></h1>
+  <p class="page-sub">There are hundreds of web agencies out there. Here is exactly why businesses across India and beyond choose Mora Digital Automations — and keep coming back.</p>
+</div>
+
+<!-- 9 BIG REASONS -->
+<section id="reasons">
+  <div class="section-label reveal">Our Advantages</div>
+  <h2 class="reveal">9 Reasons to Choose <em>Mora Digital</em></h2>
+  <div class="reasons-grid">
+    <div class="reason-card reveal">
+      <div class="r-num">01</div>
+      <span class="r-icon">🤝</span>
+      <div class="r-title">Client-First, Always</div>
+      <p class="r-desc">Your goals drive every decision we make. We don't build what's easiest for us — we build what's best for you. Your success is the only metric that matters to us.</p>
+    </div>
+    <div class="reason-card reveal rd1">
+      <div class="r-num">02</div>
+      <span class="r-icon">💎</span>
+      <div class="r-title">Premium Quality at Fair Prices</div>
+      <p class="r-desc">High-end design and engineering quality that used to cost lakhs — now accessible to every business in India. No compromise on quality, ever. Packages from ₹9,999.</p>
+    </div>
+    <div class="reason-card reveal rd2">
+      <div class="r-num">03</div>
+      <span class="r-icon">⚡</span>
+      <div class="r-title">Fast Turnaround</div>
+      <p class="r-desc">We move fast. A standard website is live in 1–2 weeks. We work in focused sprints and share progress regularly so you always see momentum, never silence.</p>
+    </div>
+    <div class="reason-card reveal">
+      <div class="r-num">04</div>
+      <span class="r-icon">🔍</span>
+      <div class="r-title">100% Transparent</div>
+      <p class="r-desc">No hidden fees. No surprise costs. No jargon designed to confuse you. We explain everything in plain language and you always know exactly where your money goes.</p>
+    </div>
+    <div class="reason-card reveal rd1">
+      <div class="r-num">05</div>
+      <span class="r-icon">🤖</span>
+      <div class="r-title">AI-Powered Development</div>
+      <p class="r-desc">We use the latest AI tools — ChatGPT, Claude, GitHub Copilot — to build faster and smarter. You get a modern, AI-integrated product at no extra cost to you.</p>
+    </div>
+    <div class="reason-card reveal rd2">
+      <div class="r-num">06</div>
+      <span class="r-icon">🔄</span>
+      <div class="r-title">Complete End-to-End Service</div>
+      <p class="r-desc">Design, development, deployment, SEO, and support — all under one roof. No juggling 3 different vendors. One team. One point of contact. Everything handled.</p>
+    </div>
+    <div class="reason-card reveal">
+      <div class="r-num">07</div>
+      <span class="r-icon">📞</span>
+      <div class="r-title">Always Reachable</div>
+      <p class="r-desc">WhatsApp, email, or Zoom — we respond within 4 hours during working hours. You will never be left waiting days for a reply or wondering if your project is progressing.</p>
+    </div>
+    <div class="reason-card reveal rd1">
+      <div class="r-num">08</div>
+      <span class="r-icon">🔒</span>
+      <div class="r-title">You Own Everything</div>
+      <p class="r-desc">100% source code ownership transferred to you on final delivery. No subscriptions that lock you in. No "we host it so we own it" traps. Your product. Your IP. Full stop.</p>
+    </div>
+    <div class="reason-card reveal rd2">
+      <div class="r-num">09</div>
+      <span class="r-icon">📈</span>
+      <div class="r-title">Built for Long-Term Growth</div>
+      <p class="r-desc">We architect for scale from day one. What we build today handles 10x more traffic tomorrow. No expensive rewrites in 12 months. Future-proof from the start.</p>
+    </div>
+  </div>
+</section>
+
+<!-- VS COMPARISON TABLE -->
+<section id="comparison">
+  <div class="section-label reveal">The Honest Comparison</div>
+  <h2 class="reveal">Mora Digital vs <em>The Rest</em></h2>
+  <p class="reveal" style="color:var(--muted);margin-top:.8rem;font-size:.95rem;max-width:520px;">Here is how we compare to typical freelancers and large agencies — honestly.</p>
+  <div class="comp-table reveal">
+    <div class="comp-header">
+      <div>What You Care About</div>
+      <div>Typical Agency / Freelancer</div>
+      <div>Mora Digital ✦</div>
+    </div>
+    <div class="comp-row"><div class="comp-label">Transparent pricing upfront</div><div><span class="cross">✗ Often hidden costs</span></div><div><span class="tick">✓ Always clear</span></div></div>
+    <div class="comp-row"><div class="comp-label">On-time delivery</div><div><span class="cross">✗ Delays common</span></div><div><span class="tick">✓ Milestone-based</span></div></div>
+    <div class="comp-row"><div class="comp-label">Post-launch support included</div><div><span class="cross">✗ Extra cost</span></div><div><span class="tick">✓ All plans include it</span></div></div>
+    <div class="comp-row"><div class="comp-label">AI tools integrated</div><div><span class="cross">✗ Rarely</span></div><div><span class="tick">✓ Standard practice</span></div></div>
+    <div class="comp-row"><div class="comp-label">Full source code ownership</div><div><span class="cross">✗ Often retained</span></div><div><span class="tick">✓ 100% yours</span></div></div>
+    <div class="comp-row"><div class="comp-label">Mobile-first, SEO-ready</div><div><span class="cross">✗ Add-on cost</span></div><div><span class="tick">✓ Built in by default</span></div></div>
+    <div class="comp-row"><div class="comp-label">Responds within 4 hours</div><div><span class="cross">✗ Days sometimes</span></div><div><span class="tick">✓ Guaranteed</span></div></div>
+    <div class="comp-row"><div class="comp-label">Weekly progress updates</div><div><span class="cross">✗ Rarely structured</span></div><div><span class="tick">✓ Every project</span></div></div>
+    <div class="comp-row"><div class="comp-label">Affordable starting price</div><div><span class="cross">✗ ₹50,000+</span></div><div><span class="tick">✓ From ₹9,999</span></div></div>
+    <div class="comp-row"><div class="comp-label">Single team, full service</div><div><span class="cross">✗ Multiple vendors</span></div><div><span class="tick">✓ One team, everything</span></div></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats-band">
+  <div class="section-label reveal" style="color:var(--gold)">By The Numbers</div>
+  <h2 class="reveal" style="color:#fff;">Our Track Record <em>Speaks</em></h2>
+  <div class="stats-row">
+    <div class="stat-box reveal">
+      <div class="stat-big"><span class="counter" data-t="50">0</span><span class="stat-suf">+</span></div>
+      <div class="stat-lbl">Projects Delivered</div>
+      <div class="stat-sub">Websites, apps, software</div>
+    </div>
+    <div class="stat-box reveal rd1">
+      <div class="stat-big"><span class="counter" data-t="98">0</span><span class="stat-suf">%</span></div>
+      <div class="stat-lbl">Client Satisfaction</div>
+      <div class="stat-sub">Based on project reviews</div>
+    </div>
+    <div class="stat-box reveal rd2">
+      <div class="stat-big"><span class="counter" data-t="24">0</span><span class="stat-suf">h</span></div>
+      <div class="stat-lbl">Response Time</div>
+      <div class="stat-sub">Max wait for a reply</div>
+    </div>
+    <div class="stat-box reveal rd3">
+      <div class="stat-big"><span class="counter" data-t="3">0</span><span class="stat-suf">+</span></div>
+      <div class="stat-lbl">Years Experience</div>
+      <div class="stat-sub">Building digital products</div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials-why">
+  <div class="section-label reveal">Real Clients, Real Words</div>
+  <h2 class="reveal">What Our <em>Clients Say</em></h2>
+  <div class="test-grid">
+    <div class="test-card reveal">
+      <div class="test-stars">★★★★★</div>
+      <p class="test-text">"I was nervous hiring a new agency but Mohanarangan's team made everything easy. Clear communication, delivered early, and the website looks incredible. Best investment I've made for my business."</p>
+      <div class="test-author">Rajesh Kumar</div>
+      <div class="test-role">Founder · RetailCo, Puducherry</div>
+    </div>
+    <div class="test-card reveal rd1">
+      <div class="test-stars">★★★★★</div>
+      <p class="test-text">"Our mobile app has over 10,000 downloads and a 4.8 star rating on the Play Store. The Mora team understood our vision perfectly and built something our users genuinely love."</p>
+      <div class="test-author">Priya Sharma</div>
+      <div class="test-role">CEO · HealthTech Solutions, Chennai</div>
+    </div>
+    <div class="test-card reveal rd2">
+      <div class="test-stars">★★★★★</div>
+      <p class="test-text">"After working with two other agencies who both disappointed us, Mora Digital was a breath of fresh air. On time. On budget. No excuses. They even added AI chatbot features we hadn't asked for — free."</p>
+      <div class="test-author">Arun Mehta</div>
+      <div class="test-role">Director · EduServices India, Bangalore</div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEE -->
+<section id="guarantee">
+  <div class="section-label reveal" style="color:var(--gold)">Our Promise</div>
+  <h2 class="reveal" style="color:#fff;">The Mora Digital <em>Guarantee</em></h2>
+  <div class="guarantee-grid">
+    <div class="g-card reveal">
+      <div class="g-icon">⏰</div>
+      <div class="g-title">On-Time or We Fix It Free</div>
+      <p class="g-desc">If we miss a milestone that was our fault, the next revision round is completely free of charge.</p>
+    </div>
+    <div class="g-card reveal rd1">
+      <div class="g-icon">💰</div>
+      <div class="g-title">Price Lock Guarantee</div>
+      <p class="g-desc">The price you are quoted is the price you pay. We never add unexpected charges mid-project.</p>
+    </div>
+    <div class="g-card reveal rd2">
+      <div class="g-icon">🔄</div>
+      <div class="g-title">Revision Rounds Included</div>
+      <p class="g-desc">All projects include revision rounds at design and development stage. We refine until you are 100% happy.</p>
+    </div>
+    <div class="g-card reveal rd3">
+      <div class="g-icon">🛡️</div>
+      <div class="g-title">30-Day Post-Launch Cover</div>
+      <p class="g-desc">If anything breaks within 30 days of launch due to our code, we fix it immediately at zero cost.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA — gold band -->
+<div class="cta-band">
+  <h2 class="reveal">Still Have <em>Questions?</em></h2>
+  <p class="reveal">Talk to Mohanarangan directly — no sales pressure, no scripts. Just an honest conversation about what your business needs.</p>
+  <div class="reveal" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+    <a href="quote.html" class="btn-dark">Get a Free Quote</a>
+    <a href="contact.html" class="btn-light">Talk to Mohanarangan</a>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">Mora<span>.</span></a>
+      <p>Founded by Mohanarangan N — trusted by businesses across India. Puducherry, India.</p>
+      <div class="footer-socials"><a href="https://github.com/Mohanarangan-N" target="_blank">GH</a><a href="#">in</a><a href="#">ig</a><a href="https://wa.me/91XXXXXXXXXX" target="_blank">wa</a></div>
+    </div>
+    <div class="footer-links">
+      <div class="fl-col"><strong>Company</strong><a href="about.html">About Mohanarangan</a><a href="process.html">Our Process</a><a href="why-us.html">Why Mora</a></div>
+      <div class="fl-col"><strong>Services</strong><a href="services.html">Web Development</a><a href="services.html">Mobile Apps</a><a href="services.html">AI Integration</a></div>
+      <div class="fl-col"><strong>Get Started</strong><a href="quote.html">Get a Quote</a><a href="contact.html">Contact Us</a><a href="tech.html">Tech Stack</a></div>
+    </div>
+  </div>
+  <div class="footer-bottom"><span>© 2025 Mora Digital Automations · Mohanarangan N · Puducherry, India</span><div style="display:flex;gap:1.5rem"><a href="#">Privacy</a><a href="#">Terms</a></div></div>
+</footer>
+
+<script>
+const _g=document.getElementById('cursor-glow');
+document.addEventListener('mousemove',e=>{_g.style.left=e.clientX+'px';_g.style.top=e.clientY+'px';});
+window.addEventListener('scroll',()=>document.getElementById('navbar').classList.toggle('scrolled',scrollY>60));
+const obs=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('visible')),{threshold:.08});
+document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(r=>obs.observe(r));
+let cDone=false;
+const cObs=new IntersectionObserver(es=>{if(es[0].isIntersecting&&!cDone){cDone=true;document.querySelectorAll('.counter').forEach(el=>{const t=+el.dataset.t,d=1800,s=60,step=t/s;let c=0;const iv=setInterval(()=>{c+=step;if(c>=t){c=t;clearInterval(iv);}el.textContent=Math.round(c);},d/s);});}},{threshold:.5});
+cObs.observe(document.getElementById('stats-band'));
+function toggleMenu(){const n=document.querySelector('.nav-links');if(n.style.display==='flex'){n.style.display='none';}else{n.style.cssText='display:flex;flex-direction:column;position:fixed;top:68px;left:0;right:0;background:var(--surface);padding:2rem 5vw;gap:1.5rem;z-index:99;border-bottom:1px solid var(--border);';}}
+</script>
+</body>
+</html>
